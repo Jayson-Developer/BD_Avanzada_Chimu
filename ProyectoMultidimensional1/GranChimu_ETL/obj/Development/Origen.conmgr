@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost_SQLEXPRESS.BI_GranChimu"
+  DTS:DTSID="{DB67E02B-8DBC-4B59-90BB-D6BB828B4E3D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=BI_GranChimu;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-GranChimu_ETL-{DB67E02B-8DBC-4B59-90BB-D6BB828B4E3D}localhost\SQLEXPRESS.BI_GranChimu;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
